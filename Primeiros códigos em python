@@ -1,0 +1,48 @@
+# str == "Introcomp"
+# int == 5
+# float == 5.10
+# bool == True or False
+
+# + - * ** / //
+# == != < > <= >=
+# or and
+
+massa = float(input('qual o seu peso: '))
+altura = float(input('qual a sua altura: '))
+
+imc = massa / (altura * altura)
+
+print(imc)
+
+if imc <18.5:
+  print('Abaixo do Peso')
+if imc >=18.5 and imc<=24.9:
+  print('Saudável')
+if imc >=25.9 and imc <=29.9:
+  print('Peso em Excesso')
+if imc >=30.0 and imc<=34.9:
+  print('Obesidade Grau I')
+if imc >=35.0 and imc<=39.9:
+  print('Obesidade Grau II')
+if imc >=40.0:
+  print('Vai malhar amigo')
+
+  # Em pseudocódigo
+
+
+icm = massa / (altura * altura)
+
+se imc for menor< que 18,5:
+    exibir "abaixo do peso"
+se imc for maior> ou igual= que 18,5 e menor< ou igual= que 24,9:
+    exibir "Saudável"
+se imc for maior> ou igual= que 25,9 e menor< ou igual= que 29,9:
+    exibir "Peso em Excesso"
+se imc for maior> ou igual= que 30,0 e menor< ou igual= que 34,9:
+    exibir "Obesidade Grau I" 
+se imc for maior> ou igual= que 35,0 e menor< ou igual= que 39,9:
+    exibir "Obesidade Grau II"
+se imc for maior> ou igual= que 40,0
+    exibir "vai malhar amigo"
+
+# Antes de cada operação vem o nome dela. Por exemplo: (MENOR <) ou (IGUAL =)
